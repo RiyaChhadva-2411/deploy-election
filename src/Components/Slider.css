@@ -1,0 +1,346 @@
+
+
+.Slider_container {
+    max-width: 100%;
+    background-color: white !important;
+    padding-left: 85px;
+    padding-right: 115px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.car{
+    padding-left: 108px;
+    padding-right: 0rem;
+}
+.heading{
+    color: #8108AB; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+
+.react-multi-carousel-item {
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    margin-right: 44px;
+}
+.react-multi-carousel-track{
+    width: 103%;
+}
+
+.Slider__photo{
+    position: relative;
+    max-width: 100%;
+ }
+ /* .Slider__measurement{
+     margin-right: 150px;
+ }
+ .Slider__row{
+     margin-left: 13rem; 
+ } */
+ .Slider__picture{
+     width: 240px;
+     height: 325px;
+     border-radius: 7px;
+ }
+ .Slider__names{
+    position: absolute;
+    bottom:-1rem;
+    text-align:left;
+    color: #fff;
+    width: 240px;
+    background-color: black;
+    opacity: .7;
+    font-family: 'Poppins', sans-serif;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 520;
+    padding-left: 15px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+ }
+ .Slider__fname{
+     margin-left: 10px;
+     margin-top: 12px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     font-size: 20px;
+     line-height:1.7rem;
+     color:#2541B2;
+     width: 240px;
+ }
+ .Slider__address{
+     margin-left: 10px;
+     font-family: 'Poppins', sans-serif;
+     font-weight:400;
+     font-size: 15px;
+     line-height: 1.5rem;
+     width: 240px;
+     margin-top: 10px;
+ }
+ .Slider__phone{
+     margin-left: 10px;
+     font-family: 'Poppins',sans-serif;
+     font-weight: 400;
+     font-size: 15px;
+     margin-top: 10px;
+     margin-bottom: 2rem;
+     width: 240px;
+ }
+
+
+
+ @media only screen and (max-width : 576px){
+ 
+    .car{
+        padding-left: 25px;
+    }
+    
+    .Slider_container {
+        max-width: 100%;
+        background-color: white !important;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .heading{
+        color: #8108AB; 
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        margin-bottom: 30px;
+        margin-left: 34px;
+        margin-top:45px;
+      }
+    
+    .react-multi-carousel-item {
+        transform-style: preserve-3d;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        margin-right: -2rem;
+    }
+    
+    .Slider__photo{
+        position: relative;
+        max-width: 100%;
+     }
+     /* .Slider__measurement{
+         margin-right: 150px;
+     }
+     .Slider__row{
+         margin-left: 13rem; 
+     } */
+     .Slider__picture{
+         width: 121px;
+         height: 164px;
+         border-radius: 7px;
+     }
+     .Slider__names{
+        position: absolute;
+        bottom:-1rem;
+        text-align:left;
+        color: #fff;
+        width: 121px;
+        background-color: black;
+        opacity: .7;
+        font-family: 'Poppins', sans-serif;
+        height: 22px;
+        font-size: 10px;
+        font-weight: 600;
+        padding-left: 10px;
+        line-height:15px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        padding-top:3px;
+     }
+     .Slider__fname{
+         margin-left: 5px;
+         margin-top: 5px;
+         font-family: 'Poppins', sans-serif;
+         font-weight: 600;
+         font-size: 11px;
+         line-height:15px;
+         color: #8108AB;
+         width: 86px;
+     }
+     .Slider__address{
+         margin-left: 5px;
+         font-family: 'Poppins', sans-serif;
+         font-weight:normal;
+         font-size: 10px;
+         line-height: 22px;
+         width: 110px;
+         margin-top: 0px;
+     }
+     .Slider__phone{
+         margin-left: 5px;
+         font-family: 'Poppins',sans-serif;
+         font-weight: normal;
+         font-size: 10px;
+         margin-top: 6px;
+         margin-bottom: 52px;
+         width: 10rem;
+     }
+}
+
+
+  @media(min-width:576px) and (max-width: 800px){
+  
+    .heading {
+        color: #8108AB;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .car{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .Slider_container {
+        max-width: 100%;
+        background-color: white !important;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .Slider__photo{
+      position: relative;
+      max-width: 100%;
+   }
+   
+   .Slider__car{
+       padding-left:4rem;
+   }
+
+  .Slider__picture{
+      width: 141px;
+      height: 184px;
+      border-radius:7px;
+  }
+  .Slider__names{
+     position: absolute;
+     bottom:-1rem;
+     text-align:left;
+     color: #fff;
+     width: 141px;
+     background-color: black;
+     opacity: .7;
+     font-family: 'Poppins', sans-serif;
+     height: 20px;
+     font-size: 14px;
+     padding-left: 10px;
+     border-bottom-left-radius: 7px;
+     border-bottom-right-radius: 7px;
+  }
+  .Slider__fname{
+      margin-left: 5px;
+      margin-top: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      line-height:0.8rem;
+      color: blue;
+      width: 121px;
+  }
+  .Slider__address{
+      margin-left: 5px;
+      font-family: 'Poppins', sans-serif;
+      font-weight:400;
+      font-size: 10px;
+      line-height: 0.8rem;
+      width: 140px;
+      margin-top: 10px;
+  }
+  .Slider__phone{
+      margin-left: 10px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 400;
+      font-size: 10px;
+      margin-top: 10px;
+      margin-bottom: 2rem;
+  }
+  }
+  
+
+  @media(min-width:800px)and (max-width:1200px){
+
+    .Slider_container {
+        max-width: 100%;
+        background-color: white !important;
+        padding-left: 40px;
+        padding-right: 115px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .car{
+        padding-left: 5rem;
+        padding-right: 0rem;
+    }
+    .heading{
+        color: #8108AB; 
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+
+    
+     .Slider__photo{
+      position: relative;
+      max-width: 100%;
+   }
+
+  .Slider__picture{
+      width: 171px;
+      height: 195px;
+      border-radius: 10px;
+  }
+  .Slider__names{
+     position: absolute;
+     bottom:-1rem;
+     text-align:left;
+     color: #fff;
+     width: 171px;
+     background-color: black;
+     opacity: .7;
+     font-family: 'Poppins', sans-serif;
+     height: 20px;
+     font-size: 14px;
+     padding-left: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+  }
+  .Slider__fname{
+      margin-left: 10px;
+      margin-top: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      line-height:0.8rem;
+      color: blue;
+      width: 121px;
+  }
+  .Slider__address{
+      margin-left: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-weight:400;
+      font-size: 10px;
+      line-height: 0.8rem;
+      width: 121px;
+      margin-top: 10px;
+  }
+  .Slider__phone{
+      margin-left: 10px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 400;
+      font-size: 10px;
+      margin-top: 10px;
+      margin-bottom: 2rem;
+  }
+  }

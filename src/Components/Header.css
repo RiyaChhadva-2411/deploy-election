@@ -1,0 +1,326 @@
+ /* for semibold [poppins] font-family: 'Poppins', sans-serif;
+for thin [poppins] font-family: 'Poppins', sans-serif; */
+.Header_container{
+    max-width: 100%;
+    background-color: #f7e6ff !important;
+    padding-left: 70px !important;
+    padding-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 45px;
+}
+
+.Header_row{
+    padding-top: 150px;
+}
+.Header__firstcol{
+    /* margin-top: 5rem; */
+}
+
+.Header__mainheading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.Header__heading_1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: darkmagenta;
+}
+
+.Header__heading_2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: darkmagenta;
+}
+
+.Header__subheading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:18px;
+    text-align: left;
+    color: #000000;
+    line-height: 25.5px;
+    width: 560px;
+}
+
+.Header__secondcol{
+    padding: 0rem;
+}
+
+.Header__svg {
+    margin-left: -1rem;
+    height: auto;
+    width: 40rem;
+    margin-top: -7rem;
+}
+
+.Header__thirdcol{
+    margin-top: 55px;
+    margin-bottom: 70px;
+    background-color: white !important;
+    padding-left: 85px !important;
+    padding-right: 150px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.Header__message{
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.Header__message_salutation{
+    font-size: 20px;
+    line-height: 2.6;
+    font-weight: 400;
+}
+.Header__message_respected{
+    font-size: 20px;
+    line-height: 2.6;
+    font-weight: 400;
+}
+
+/*For mobile view*/
+@media(max-width: 576px){
+    
+    .Header_container{
+        max-width: 100%;
+        background-color: #f7e6ff !important;
+        padding-left: 15px !important;
+        padding-right: 22px;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 25px;
+    }
+    .Header_row{
+        margin-top: 100px;
+        padding-top: 0;
+    }
+    .Header__firstcol{
+        margin-top: 100px;    
+    }
+
+    .Header__mainheading{
+        font-size: 30px;
+        line-height: 45px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .Header__heading_1{
+        font-size: 30px;
+        width:50%;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        line-height: 45px;
+    }
+
+    .Header__heading_2{
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:200;
+        line-height: 45px;
+    }
+
+    .Header__subheading{
+        font-size:13px;
+        left: 30px;
+         top:256px;
+        width:315px; 
+        height: 260px;
+        font-weight: normal;
+        line-height: 19px;
+    }
+
+    .Header__svg{
+        height: 370px;
+        width:370px;
+        margin-top: 34px;
+        margin-left:-2rem;
+    }
+
+    .Header__thirdcol{
+        margin-top: 50px;
+        font-size: 13px;
+        margin-bottom: 70px;
+        background-color: white !important;
+        padding-left: 25px !important;
+        padding-right: 16px;
+    }
+
+    .Header__message{
+        font-size: 13px;
+        line-height:19.5px;
+        font-weight: 400;
+    }
+    
+    .Header__message_salutation{
+        font-size: 13px;
+        line-height: 2.6;
+        font-weight: 400;
+        line-height:22px;
+    }
+    .Header__message_respected{
+        font-size: 13px;
+        line-height: 2.6;
+        font-weight:normal;
+        width: 200px;
+        line-height:22px;
+    }
+}
+
+/*For small and medium devices*/
+@media(min-width:576px) and (max-width: 800px){
+    
+    .Header_container{
+        max-width: 100%;
+        background-color: #f7e6ff !important;
+        padding-left: 10px !important;
+        padding-right: 22px;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 25px;
+    }
+    .Header_row{
+        padding-top: 130px;
+    }
+    
+   
+
+    .Header__mainheading{
+        font-size: 40px;
+    }
+
+    .Header__heading_1{
+        font-size:40px;
+    }
+
+    .Header__heading_2{
+        font-size: 40px;
+    }
+    
+    .Header__subheading{
+        font-size:12px;
+        margin-bottom: 35px;
+        text-align: left;
+        width: 370px;
+        line-height: 18px;
+    }
+    .Header__svg{
+        margin-left: -1rem;
+        height: 390px;
+        width: 390px;
+        margin-top: -2rem;
+    }
+    .Header__thirdcol{
+        margin-top: 50px;
+        font-size: 13px;
+        margin-bottom: 70px;
+        background-color: white !important;
+        padding-left: 25px !important;
+        padding-right: 16px;
+    }
+    .Header__message{
+        font-size: 13px;
+        font-weight: 500;
+        text-align: left;
+        line-height: 1.7;
+    }
+
+    .Header__message_salutation{
+        font-size: 13px;
+        line-height: 2.6;
+        font-weight: 400;
+    }
+
+    .Header__message_respected{
+        font-size: 13px;
+        line-height: 2.6;
+        font-weight: normal;
+    }
+}
+
+
+/*For medium and large devices*/
+@media(min-width:800px)and (max-width:1200px){
+    .Header_container{
+        max-width: 100%;
+        background-color: #f7e6ff !important;
+        padding-left: 25px !important;
+        padding-right: 58px !important;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 100px;
+    }
+    
+    .Header__firstcol{
+        margin-top: 5rem;
+    }
+    
+    .Header__mainheading{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    .Header__heading_1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 45px;
+        margin-bottom: 30px;
+        color: darkmagenta;
+    }
+
+    .Header__heading_2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        font-size: 45px;
+        margin-bottom: 30px;
+        color: darkmagenta;
+    }
+
+    .Header__subheading{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size:18px;
+        text-align: left;
+    }
+    
+    .Header__secondcol{
+        padding: 0rem;
+    }
+    
+    .Header__svg{
+        margin-left: -2rem;
+        height: auto;
+        width: 34rem;
+        margin-top: 5rem;
+        
+    }
+    .Header__thirdcol{
+        margin-top: 55px;
+        margin-bottom: 70px;
+        background-color: white !important;
+        padding-left: 40px !important;
+        padding-right: 32px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .Header__message{
+        font-size: 20px;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+    
+    .Header__message_salutation{
+        font-size: 20px;
+        line-height: 2.6;
+        font-weight: 400;
+    }
+    .Header__message_respected{
+        font-size: 20px;
+        line-height: 2.6;
+        font-weight: 400;
+    }
+    
+}

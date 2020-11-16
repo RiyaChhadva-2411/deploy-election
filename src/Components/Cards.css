@@ -1,0 +1,420 @@
+.container-fluid {
+    width: 100%;
+    
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.Cards_hr{
+    width: 95%; 
+    height: 20px;
+    border-bottom: 3px solid #8108AB; 
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 103px;
+}
+
+.Cards_hr_text{
+    color:#8108AB; 
+    font-size: 20px;
+    font-weight: 600; 
+    background-color: white; 
+    padding: 0 3rem;
+}
+
+.Cards_row_styling{
+    padding-left: 17% !important;
+    padding-right: 0;
+    padding-top: 3.7rem;
+}
+
+/* for second row */
+.Cards_row_styling2{
+    padding-left: 33% !important;
+    padding-right: 0;
+    padding-top: 3.7rem;
+}
+
+.mobile-card-container {
+    display: block;
+  }
+
+  .mx-sm-auto {
+    margin-right: 20px!important;
+    margin-left: 20px !important;
+}
+
+/* for second row cards*/
+.mx-sm-auto2 {
+    margin-right: 35px!important;
+    margin-left: 35px !important;
+}
+
+  .card-background {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 16px;
+    height: 220px;
+    width: 171px;
+    -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+    -moz-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+    box-shadow: 2px 3px 6px 1px rgba(0, 51, 102, 0.1);
+  }
+
+  .card-img-div{
+    align-items: center;
+    margin-left: 7rem;
+    margin-top: 6.5rem;
+    }
+  .card-image {
+    position: absolute;
+    width: 2rem;
+    height: auto;
+    top: 2.5rem;
+    left: 40%;
+  }
+
+  .card-body {
+     flex: 1 1 auto;
+    padding: 8px;
+}
+  .card-title{
+      color: darkmagenta !important;
+      font-size: 13px;
+      font-weight: 550;  
+      text-decoration: none;
+  }
+
+  .card-link{
+      text-decoration: none;
+      color: #8108AB  !important;
+      font-size: 13px;
+      font-weight: 550; 
+  }
+
+  .dates{
+    color: #555555;  
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 2.4rem;
+  }
+
+  .dates_exception{
+    color: #555555;  
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 2.4rem;
+  }
+
+
+
+
+  @media only screen and (max-width : 576px){
+
+  .container-fluid {
+    width: 100%;
+    padding-left: 0rem !important;
+    padding-right: 0;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 50px;
+}  
+
+.Cards_hr{
+    width: 87%; 
+    height: 14px;
+    border-bottom: 3px solid #8108AB; 
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-top: 0px;
+}
+
+.Cards_hr_text{
+    color:#8108AB; 
+    font-size: 13px;
+    font-weight: 600; 
+    background-color: white; 
+    padding: 0 1rem;
+}
+
+  .mobile-card-container > .row {
+    overflow-x: auto;
+}
+
+  .mx-sm-auto {
+    margin-right: 1px!important;
+    margin-left: 0px !important;
+}
+
+.Cards_row_styling{
+    padding: 30px 0px 20px 32px;
+  }
+
+/* for second row */
+.Cards_row_styling2{
+    padding-left: 17% !important;
+    padding-right: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+
+/* for second row cards*/
+.mx-sm-auto2 {
+    margin-right: 0px!important;
+    margin-left: 0px !important;
+}
+
+  .col-10 {
+    /* -ms-flex: 0 0 83.333333%; */
+    flex: 0 0 58.333333%;
+    max-width: 79.333333%;
+} 
+
+  
+
+  .card-background {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-top: 16px;
+    height: 174px;
+    width: 136px;
+    -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+    -moz-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+    box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+  }
+
+  .card-img-div{
+    align-items: center;
+    margin-left: 7rem;
+    margin-top: 4.5rem;
+    }
+  .card-image {
+    position: absolute;
+    width: 2rem;
+    height: auto;
+    top: 1.8rem;
+    left: 38%;
+  }
+
+  .card-body {
+     flex: 1 1 auto;
+    padding: 10px;
+}
+  .card-title{
+      color: #8108AB  !important;
+      font-size: 11px;
+      font-weight: 500;  
+      text-decoration: none;
+  }
+
+  .card-link{
+      text-decoration: none;
+      color: #8108AB !important;
+      font-size: 11px;
+      font-weight: 500; 
+  }
+
+  .dates{
+     color: #555555; 
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+  .dates_exception{
+    color: #555555; 
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+}
+
+
+/*For small tablets*/
+@media(min-width: 576px) and (max-width: 800px){
+    .container-fluid {
+        width: 100%;
+        padding-left: 0rem !important;
+        padding-right: 0;
+        font-family: 'Poppins', sans-serif !important;
+        margin-top: 103px;
+    }
+
+    .Cards_hr{
+        width: 95%; 
+        height: 20px;
+        border-bottom: 3px solid #8108AB; 
+        text-align: center;
+        margin-left: 1rem;
+        margin-top: 0px;
+    }
+    
+    .Cards_hr_text{
+        color:#8108AB; 
+        font-size: 20px;
+        font-weight: 600; 
+        background-color: white; 
+        padding: 0 2rem;
+    }
+
+    .Cards_row_styling{
+        padding: 40px 0px 50px 0px !important;
+      }
+    
+     /* for second row */
+     .Cards_row_styling2{
+        padding-left: 23% !important;
+        padding-right: 0;
+        padding-top: 3.7rem;
+    }  
+      
+    .mx-sm-auto {
+        margin-right: 28px!important;
+        margin-left: 28px !important;
+    }
+    
+    /* for second row cards*/
+.mx-sm-auto2 {
+  margin-right: 42px!important;
+  margin-left: 40px !important;
+}
+    
+    .card-background {
+        background-color: #ffffff;
+        border-radius: 6px;
+        margin-top: 16px;
+        height: 200px;
+        width: 150px;
+        -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+        -moz-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+        box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+      }
+    
+      .card-img-div{
+        align-items: center;
+        margin-left: 7rem;
+        margin-top: 6rem;
+        }
+      .card-image {
+        position: absolute;
+        width: 2rem;
+        height: auto;
+        top: 2.5rem;
+        left: 38%;
+      }
+    
+      .card-body {
+         flex: 1 1 auto;
+        padding: 10px;
+    }
+      .card-title{
+          color: darkmagenta !important;
+          font-size: 11px;
+          font-weight: 500;  
+          text-decoration: none;
+      }
+    
+      .card-link{
+          text-decoration: none;
+          color: darkmagenta !important;
+          font-size: 11px;
+          font-weight: 500; 
+      }
+    
+      .dates{
+        color: #555555;   
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 2rem;
+      }
+      .dates_exception{
+        color: #555555;   
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 2rem;
+      }
+
+
+    
+    
+}
+
+/* for big tablets */
+@media(min-width: 800px) and (max-width: 1200px){
+    .container-fluid {
+        width: 100%;
+        padding-left: 0rem !important;
+        padding-right: 0;
+        font-family: 'Poppins', sans-serif !important;
+    }
+
+    .Cards_row_styling{
+        padding: 50px 0px 10px 60px !important;
+      }
+
+    /* for second row */
+    .Cards_row_styling2{
+        padding-left: 21% !important;
+        padding-right: 0;
+        padding-top: 3rem;
+    }  
+    
+    .mx-sm-auto {
+        margin-right: 28px!important;
+        margin-left: 28px !important;
+    }
+    
+    
+    .card-background {
+        background-color: #ffffff;
+        border-radius: 6px;
+        margin-top: 16px;
+        height: 200px;
+        width: 150px;
+        -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+        -moz-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+        box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+      }
+    
+      .card-img-div{
+        align-items: center;
+        margin-left: 7rem;
+        margin-top: 4rem;
+        }
+      .card-image {
+        position: absolute;
+        width: 2.5rem;
+        height: auto;
+        top: 1rem;
+        left: 38%;
+      }
+    
+      .card-body {
+         flex: 1 1 auto;
+        padding: 10px;
+    }
+      .card-title{
+          color: darkmagenta !important;
+          font-size: 11px;
+          font-weight: 500;  
+          text-decoration: none;
+      }
+    
+      .card-link{
+          text-decoration: none;
+          color: darkmagenta !important;
+          font-size: 11px;
+          font-weight: 500; 
+      }
+    
+      .dates{
+        color: #555555;   
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 2rem;
+      }
+      .dates_exception{
+        color: #555555;   
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 2rem;
+      }
+}

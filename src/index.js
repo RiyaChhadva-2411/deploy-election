@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Imp_notice from './Components/Imp_notice'
+import Header from './Components/Header'
+import Slider from './Components/Slider'
+import Cards from './Components/Cards'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <Slider />
+    <Imp_notice/>
+    <Cards />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
