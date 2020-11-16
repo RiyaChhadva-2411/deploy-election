@@ -279,7 +279,7 @@
     }
     
     .car{
-        padding-left: 5rem;
+        padding-left: 2rem;
         padding-right: 0rem;
     }
     .heading{
@@ -298,7 +298,7 @@
 
   .Slider__picture{
       width: 171px;
-      height: 195px;
+      height: 215px;
       border-radius: 10px;
   }
   .Slider__names{

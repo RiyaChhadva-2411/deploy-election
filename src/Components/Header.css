@@ -12,9 +12,6 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
 .Header_row{
     padding-top: 150px;
 }
-.Header__firstcol{
-    /* margin-top: 5rem; */
-}
 
 .Header__mainheading{
     font-family: 'Poppins', sans-serif;
@@ -251,11 +248,11 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         padding-left: 25px !important;
         padding-right: 58px !important;
         font-family: 'Poppins', sans-serif;
-        padding-bottom: 100px;
+        padding-bottom: 25px;
     }
     
     .Header__firstcol{
-        margin-top: 5rem;
+        padding-top: 100px;
     }
     
     .Header__mainheading{
@@ -285,6 +282,8 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         font-weight: 500;
         font-size:18px;
         text-align: left;
+        width:480px;
+        line-height: 25px;
     }
     
     .Header__secondcol{
@@ -292,11 +291,10 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     }
     
     .Header__svg{
-        margin-left: -2rem;
-        height: auto;
-        width: 34rem;
-        margin-top: 5rem;
-        
+        margin-left: -1rem;
+        height:570px;
+        width:570px;
+        margin-top: 3rem;
     }
     .Header__thirdcol{
         margin-top: 55px;
