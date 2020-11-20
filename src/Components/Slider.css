@@ -289,6 +289,11 @@
       margin-top: 10px;
       margin-bottom: 2rem;
   }
+  .Slider_mx-sm-auto {
+    margin-right: 36px!important;
+    margin-left: 20px !important;
+}
+
   }
   
 
@@ -322,7 +327,7 @@
 
   .Slider__picture{
       width: 171px;
-      height: 195px;
+      height: 220px;
       border-radius: 10px;
   }
   .Slider__names{
@@ -367,6 +372,10 @@
       margin-top: 10px;
       margin-bottom: 2rem;
   }
+  .Slider_mx-sm-auto {
+    margin-right: 36px!important;
+    margin-left: 20px !important;
+}
   }
 
 
