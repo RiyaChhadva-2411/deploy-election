@@ -98,6 +98,11 @@
  .mobile-card-container {
     display: block;
   }
+  .Slider__svg{
+      width: 20px;
+      height: 20px;
+      color: #000000;
+  }
 
 
 
@@ -146,6 +151,11 @@
         backface-visibility: hidden;
         margin-right: -2rem;
     }
+    .Slider__svg{
+        width:9px;
+        height: 9px;
+        color: #000000;
+    }
     
     .Slider__photo{
         position: relative;
@@ -186,7 +196,7 @@
          font-family: 'Poppins', sans-serif;
          font-weight: 600;
          font-size: 11px;
-         line-height:15px;
+         line-height:18px;
          color: #8108AB;
          width: 135px;
      }
@@ -195,7 +205,7 @@
          font-family: 'Poppins', sans-serif;
          font-weight:normal;
          font-size: 10px;
-         line-height: 22px;
+         line-height: 18px;
          width: 130px;
          margin-top: 0px;
      }
@@ -247,6 +257,11 @@
       height: 184px;
       border-radius:7px;
   }
+  .Slider__svg{
+    width:13px;
+    height: 13px;
+    color: #000000;
+}
   .Slider__names{
      position: absolute;
      bottom:-1rem;
@@ -277,7 +292,7 @@
       font-family: 'Poppins', sans-serif;
       font-weight:400;
       font-size: 10px;
-      line-height: 0.8rem;
+      line-height: 1rem;
       width: 140px;
       margin-top: 10px;
   }
@@ -345,6 +360,11 @@
      border-bottom-left-radius: 10px;
      border-bottom-right-radius: 10px;
   }
+  .Slider__svg{
+    width:15px;
+    height: 15px;
+    color: #000000;
+}
   .Slider__fname{
       margin-left: 10px;
       margin-top: 10px;
@@ -360,7 +380,7 @@
       font-family: 'Poppins', sans-serif;
       font-weight:400;
       font-size: 10px;
-      line-height: 0.8rem;
+      line-height: 1rem;
       width: 121px;
       margin-top: 10px;
   }

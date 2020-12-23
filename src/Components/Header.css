@@ -176,7 +176,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         max-width: 100%;
         background-color: #f7e6ff !important;
         padding-left: 10px !important;
-        padding-right: 22px;
+        padding-right: 0px;
         font-family: 'Poppins', sans-serif;
         padding-bottom: 25px;
     }
@@ -246,7 +246,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         max-width: 100%;
         background-color: #f7e6ff !important;
         padding-left: 25px !important;
-        padding-right: 58px !important;
+        padding-right:0px !important;
         font-family: 'Poppins', sans-serif;
         padding-bottom: 25px;
     }
