@@ -4,9 +4,11 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     max-width: 100%;
     background-color: #f7e6ff !important;
     padding-left: 70px !important;
-    padding-right: 100px;
+    padding-right: 70px;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 45px;
+    display: flex;
+    justify-content: center;
 }
 
 .Header_row{
@@ -321,4 +323,14 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         font-weight: 400;
     }
     
+}
+
+
+@media (min-width : 1700px){
+    .Header__svg {
+        margin-left: 0rem;
+        height: auto;
+        width: 42rem;
+        margin-top: -7rem;
+    }
 }
