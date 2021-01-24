@@ -2,15 +2,17 @@
 for thin [poppins] font-family: 'Poppins', sans-serif; */
 .Header_container{
     max-width: 100%;
-    background-color: #f7e6ff !important;
-    padding-left: 70px !important;
+    background-color: #F8F4FF !important;
+    padding-left: 0px !important;
     padding-right: 70px;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 45px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
-
+.Header__sandwich{
+    display: none;
+}
 .Header_row{
     padding-top: 150px;
 }
@@ -88,15 +90,27 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     
     .Header_container{
         max-width: 100%;
-        background-color: #f7e6ff !important;
+        background-color: #F8F4FF !important;
         padding-left: 15px !important;
         padding-right: 22px;
         font-family: 'Poppins', sans-serif;
         padding-bottom: 25px;
+        display: block;
+        overflow: hidden;
     }
     .Header_row{
         margin-top: 100px;
         padding-top: 0;
+    }
+    .Header__sandwich{
+        display: flex;
+        position: absolute;
+        top:53px;
+        left:30px;
+    }
+    .Header__sandwichstyle{
+        width: 20.56px;
+        height: auto;
     }
     .Header__firstcol{
         margin-top: 100px;    
@@ -176,16 +190,19 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     
     .Header_container{
         max-width: 100%;
-        background-color: #f7e6ff !important;
+        background-color: #F8F4FF !important;
         padding-left: 10px !important;
         padding-right: 0px;
         font-family: 'Poppins', sans-serif;
         padding-bottom: 25px;
+        display: block;
     }
     .Header_row{
         padding-top: 130px;
     }
-    
+    .Header__sandwich{
+        display: none;
+    }
    
 
     .Header__mainheading{
@@ -246,13 +263,15 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
 @media(min-width:800px)and (max-width:1200px){
     .Header_container{
         max-width: 100%;
-        background-color: #f7e6ff !important;
+        background-color: #F8F4FF !important;
         padding-left: 25px !important;
         padding-right:0px !important;
         font-family: 'Poppins', sans-serif;
         padding-bottom: 25px;
     }
-    
+    .Header__sandwich{
+        display: none;
+    }
     .Header__firstcol{
         padding-top: 100px;
     }

@@ -3,11 +3,14 @@ import "./Header.css";
 import winsvg from "../svg/winner1.svg";
 import dotsvg from "../svg/Icon.svg";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import sandwich from "../svg/sandwich.svg";
 function Header(){
     return(
         <div>
         <div className="container Header_container">
+            <div className="Header__sandwich">
+            <img className="Header__sandwichstyle" src={sandwich} alt="sandwich-button" />
+            </div>
             <div className="row Header_row">
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div className="Header__firstcol">
