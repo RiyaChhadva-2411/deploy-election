@@ -106,7 +106,15 @@
   }
 
 
-
+  .footer_upcloud{
+    display: flex;
+    justify-content: flex-start;
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 5%;
+  }
 
   @media only screen and (max-width : 576px){
 
@@ -224,6 +232,10 @@
     font-size: 10px;
     font-weight: 400;
     margin-top: 1rem;
+  }
+
+  .footer_upcloud{
+    font-size: 14px;
   }
 }
 

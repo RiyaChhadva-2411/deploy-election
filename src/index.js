@@ -11,6 +11,7 @@ ReactDOM.render(
     <Slider />
     <Imp_notice/>
     <Cards />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
